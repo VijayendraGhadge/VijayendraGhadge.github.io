@@ -1,0 +1,109 @@
+/*
+//////////////////////////////////////////////////////////////
+// Home.css - demonstrate setting presentation formats     //
+//             with Cascading Styles                        //
+//                                                          //
+// Vijayendra Ghadge                                        //
+//    CSE686 - Internet Programming, Spring 2016            //
+//////////////////////////////////////////////////////////////
+*/
+
+/* styling html elements */
+
+body { margin: 10px 20px 10px 20px; } /* top, right, bottom, left */
+body{
+   
+    background-image: url("background.jpg");
+}
+body { font-family: tahoma, sans-serif; font-size: medium; }
+
+
+a:link { color:#d0d0d0; }
+a:visited { color:#c0c0c0; background-color:#0000a0; }
+a:hover { color:#ffffff;  }
+a:active { color:#f0f0f0; background-color:#00ff00; }
+
+li { 
+    float:left;
+    padding: 14px 16px;
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+}
+
+
+li:hover{
+     background:aqua;
+}
+
+ul{
+    background-color: #333;
+    text-align: center;
+  //  overflow: hidden;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #d0d0d0;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f9f9f9;
+    text-align:center;
+    min-width: 75px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:Highlight}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+   // background-color: #3e8e41;
+   color:#ffffff; 
+}
+
+/* defining style classes, applied to any element */
+
+.title { text-align: center;  color: darkgoldenrod; }
+.emp { font-weight: bold; text-decoration: underline; }
+
+img{
+    border-radius: 20px;
+    margin:auto;
+    float:left;
+}
+
+.pad-left{
+    padding-left:20%;
+}
+
+.box{
+    border: 1px solid gray;
+    text-align: center;
+    font-weight:bold;
+}
