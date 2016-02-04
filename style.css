@@ -18,14 +18,14 @@ body{
 body { font-family: tahoma, sans-serif; font-size: medium; }
 
 
-a:link { color:#d0d0d0; }
+a:link { color:#d0d0d0; padding:15px; }
 a:visited { color:#c0c0c0; background-color:#0000a0; }
-a:hover { color:#ffffff;  }
+a:hover { color:#ffffff; }
 a:active { color:#f0f0f0; background-color:#00ff00; }
 
 li { 
     float:left;
-    padding: 14px 16px;
+	padding:15px 5px 15px 5px;
     display:inline-block;
     text-align: center;
     text-decoration: none;
@@ -47,6 +47,7 @@ ul{
 .dropbtn {
     background-color: transparent;
     color: #d0d0d0;
+	padding:1px 25px 1px 25px;
     font-size: 16px;
     text-align: center;
     text-decoration: none;
